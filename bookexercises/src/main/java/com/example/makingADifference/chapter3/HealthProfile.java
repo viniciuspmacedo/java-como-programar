@@ -1,4 +1,4 @@
-package com.example;
+package com.example.makingADifference.chapter3;
 
 import java.time.LocalDate;
 import java.time.Period;

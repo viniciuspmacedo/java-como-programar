@@ -1,4 +1,4 @@
-package com.example;
+package com.example.makingADifference.chapter3;
 
 public class Main {
     public static void main(String[] args) {
