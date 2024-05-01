@@ -1,4 +1,4 @@
-package com.example.chapter4;
+package com.example.chapter4.examples;
 
 import java.util.Scanner;
 
@@ -31,5 +31,7 @@ public class Analysis {
         if(passes > 8){
             System.out.println("Bônus para o instrutor!");
         }
+
+        input.close();
     }
 }
