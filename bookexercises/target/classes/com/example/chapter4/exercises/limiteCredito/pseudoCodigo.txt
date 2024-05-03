@@ -1,0 +1,48 @@
+Programa que determina se um cliente excedeu o limite de crédito
+
+1 - Criar a classe Cliente;
+    Atributos da classe cliente (inteiros): numeroConta, saldoInicial, totalDepesas, totalCreditos, limiteCredito
+    totalCreditos, totalDepesas = 0;
+
+    declara metodos:
+        setters e getters;
+        void somaDepesas(int despesa)
+        void somaCreditos(int credito)
+        int calculaSaldo()
+        boolean excedeLimite()
+
+2 - Criar a classe Loja que manipula a classe Cliente;
+        Inicializar o Scanner para receber entrada usuario
+        
+        Solicitar numeroConta;
+        Registrar numeroConta;
+        Solicitar saldoInicial;
+        Registrar saldoInicial;
+        Solicitar limiteCredito;
+        Registrar limiteCredito;
+
+        Inicializar um Cliente;
+
+        Exibir mensangem: 
+        "Digite 1 para cadastrar despesa;
+         Digite 2 para cadastrar crédito;
+         Digite 0 para encerrar;"
+
+        Registrar controle;
+        
+        Enquanto controle diferente de 0;
+            Se controle == 1
+                Solicita valor da despesa;
+                Registrar valor da despesa;
+                Excutar somaDepesas
+            Se controle == 2
+                Solicta valor credito
+                Registrar valor credito
+                Excutar somaCreditos
+            Se controle != 0 ou controle != 1 ou controle !=2
+                Exibe mensangem: "Opção inválida";
+        
+        Excutar calculaSaldoFinal;
+        Exibir exibir saldoFinal;
+        Se excedeLimite == verdadeiro
+            exibir mensangem: "Limite de crédito excedido"
