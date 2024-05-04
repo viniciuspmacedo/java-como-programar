@@ -1,0 +1,23 @@
+Recebe a entrada de itens vendidos por um vendedor, calcula e exibe os rendimentos do vendedor
+Não existe limites para o número de itens vendidos.
+Rendimentos = 200,00 mais 9% do total de vendas
+
+-------------
+
+Inicializar a variavel (double) totalVendas = 0;
+Inicializar Scanner
+
+Exibir mensagem ("Digite o valor do item ou 0 para sair");
+Declarar variavel (double) valor;
+Registar valor;
+
+Enquanto valor != 0
+    Somar valor ou totalVendas
+    Exibir mensagem ("Digite o valor do item ou 0 para sair");
+    Registar valor
+
+Declarar totalRendimentos
+totalRendimentos = 200 + (totalVendas * 0.09);
+Exibir mensagem: "Total de rendimentos R$ "
+
+
